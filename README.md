@@ -4,7 +4,7 @@
 Can quality-aware data augmentation improve pneumonia classification robustness on degraded chest X-rays without reducing performance on clean images?
 This project trained a compact residual CNN and a compact Vision Transformer (ViT) on PneumoniaMNIST. Each architecture was trained as a clean-only control and with moderate, label-preserving quality augmentation: Gaussian blur, Gaussian noise, contrast reduction, or reduced resolution.
 
-## Main result
+## Main results
 
 Quality-aware augmentation improved the CNN's mean AUROC across seven degraded test conditions from **0.907** to **0.948**, while clean-test AUROC increased from **0.955** to **0.962**. For the ViT, clean AUROC changed from **0.953** to **0.951** and mean degraded AUROC remained **0.934**. In this single-seed benchmark, the augmentation benefit was therefore architecture-dependent.
 
