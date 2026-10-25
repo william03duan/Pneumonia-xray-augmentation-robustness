@@ -1,0 +1,12 @@
+{
+  "/Users/yuguangduan/Documents/Codex/2026-10-25/can-data-augmentation-make-pneumonia-classification/lectures/01_pneumonia_robustness.py": {
+    "hash": "ddfdd571f891679b3631efe42223c39e109d971880a8f02d54598a723981c862",
+    "index_entry": {
+      "id": "01_pneumonia_robustness",
+      "title": "Can quality-aware data augmentation improve pneumonia classification robustness?\n\n**Yuguang Duan**  \nMD6329: Deep Learning for Healthcare AI  \nNanyang Technological University",
+      "path": "traces/01_pneumonia_robustness.json",
+      "step_count": 49,
+      "built_at": "2026-10-25T15:47:02.829892+00:00"
+    }
+  }
+}

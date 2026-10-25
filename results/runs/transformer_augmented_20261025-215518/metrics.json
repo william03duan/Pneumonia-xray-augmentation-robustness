@@ -1,0 +1,73 @@
+{
+  "model": "PneumoniaTransformer",
+  "best_validation_epoch": 17,
+  "best_validation_auroc": 0.9841353164187809,
+  "validation_duplicates_removed": 8,
+  "test_conditions": {
+    "clean": {
+      "auroc": 0.9512930089853167,
+      "average_precision": 0.9680919945703172,
+      "balanced_accuracy": 0.8388888888888888,
+      "macro_f1": 0.8559805075857394,
+      "sensitivity": 0.9769230769230769,
+      "specificity": 0.7008547008547008
+    },
+    "blur_s1.0": {
+      "auroc": 0.9530517203594127,
+      "average_precision": 0.9693267658404242,
+      "balanced_accuracy": 0.8170940170940171,
+      "macro_f1": 0.8363532328819379,
+      "sensitivity": 0.9846153846153847,
+      "specificity": 0.6495726495726496
+    },
+    "blur_s2.0": {
+      "auroc": 0.9537037037037037,
+      "average_precision": 0.9702999188168875,
+      "balanced_accuracy": 0.7833333333333333,
+      "macro_f1": 0.8030731520490234,
+      "sensitivity": 0.9897435897435898,
+      "specificity": 0.5769230769230769
+    },
+    "noise_s0.03": {
+      "auroc": 0.9542077580539119,
+      "average_precision": 0.9698292865702088,
+      "balanced_accuracy": 0.8363247863247862,
+      "macro_f1": 0.852706243024208,
+      "sensitivity": 0.9717948717948718,
+      "specificity": 0.7008547008547008
+    },
+    "noise_s0.07": {
+      "auroc": 0.9482358097742712,
+      "average_precision": 0.965301075284255,
+      "balanced_accuracy": 0.8384615384615385,
+      "macro_f1": 0.8525162852366404,
+      "sensitivity": 0.958974358974359,
+      "specificity": 0.717948717948718
+    },
+    "contrast_0.60": {
+      "auroc": 0.9228194170501863,
+      "average_precision": 0.9459690246962593,
+      "balanced_accuracy": 0.7132478632478633,
+      "macro_f1": 0.7256088623386437,
+      "sensitivity": 0.9948717948717949,
+      "specificity": 0.43162393162393164
+    },
+    "contrast_0.35": {
+      "auroc": 0.850651983344291,
+      "average_precision": 0.8849433254149797,
+      "balanced_accuracy": 0.5957264957264957,
+      "macro_f1": 0.5647768820756796,
+      "sensitivity": 0.9948717948717949,
+      "specificity": 0.19658119658119658
+    },
+    "lowres_0.50": {
+      "auroc": 0.9528380451457374,
+      "average_precision": 0.9691597631988327,
+      "balanced_accuracy": 0.8192307692307692,
+      "macro_f1": 0.8384357841167804,
+      "sensitivity": 0.9846153846153847,
+      "specificity": 0.6538461538461539
+    }
+  },
+  "data": "/Users/yuguangduan/Desktop/Data augment/data/pneumoniamnist_128.npz"
+}

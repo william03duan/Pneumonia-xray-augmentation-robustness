@@ -1,0 +1,7 @@
+split,label,label_name,count,proportion
+train,0,Normal,1214,0.2579
+train,1,Pneumonia,3494,0.7421
+val,0,Normal,135,0.2576
+val,1,Pneumonia,389,0.7424
+test,0,Normal,234,0.3750
+test,1,Pneumonia,390,0.6250
