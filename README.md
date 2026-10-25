@@ -1,7 +1,7 @@
 # Quality-Aware Augmentation for Robust Pneumonia Classification
 
+## Overview
 Can quality-aware data augmentation improve pneumonia classification robustness on degraded chest X-rays without reducing performance on clean images?
-
 This project trained a compact residual CNN and a compact Vision Transformer (ViT) on PneumoniaMNIST. Each architecture was trained as a clean-only control and with moderate, label-preserving quality augmentation: Gaussian blur, Gaussian noise, contrast reduction, or reduced resolution.
 
 ## Main result
