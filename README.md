@@ -9,7 +9,6 @@ src/            CNN, ViT, and result-figure source code
 data/           Local PneumoniaMNIST NPZ file (not tracked)
 data_preview/   GitHub-viewable dataset summary and sample X-rays
 results/runs/   Metrics, predictions, and figures from the four experiments
-report/         NeurIPS-style LaTeX report, bibliography, style file, and figures
 lectures/       Lectrace presentation source and its assets
 scripts/        Dataset-preview generation utility
 ```
